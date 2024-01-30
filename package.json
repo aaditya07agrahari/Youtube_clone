@@ -2,18 +2,16 @@
   "name": "youtube-clone",
   "version": "1.0.0",
   "description": "Backend of Youtube Clone",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev" : "nodemon src/index.js"
   },
   "keywords": [
     "Javascript",
     "Backend"
   ],
   "author": "Aditya Agrahari",
-  "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^3.0.3",
-    "prettier": "^3.2.4"
-  }
+  "license": "ISC"
+
 }
